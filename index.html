@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<!-- ВСТАВИТЬ ЭТОТ БЛОК СРАЗУ ПОСЛЕ <head> -->
+<!-- 1. Сначала кодировка (обязательно первая строка) -->
     <meta charset="UTF-8">
+    
+    <!-- 2. Настройки для iPhone (масштаб, полноэкранный режим) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="КР Калькулятор">
     <meta name="theme-color" content="#007AFF">
     
-    <!-- Подключение манифеста (если файл manifest.json лежит рядом) -->
+    <!-- 3. Подключение PWA (иконка и настройки) -->
     <link rel="manifest" href="manifest.json">
-    
-    <!-- Остальной ваш код в <head> (стили и т.д.) -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" href="icon-512.png">
     <title>Калькулятор Клинических Рекомендаций Минздрава РФ (все разделы верифицированы)</title>
     <style>
         :root {
